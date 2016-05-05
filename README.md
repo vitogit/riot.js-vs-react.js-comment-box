@@ -16,3 +16,7 @@ npm start
 ```
 
 then go to localhost:3001
+
+You can compare both comment box versions: 
+/public/scripts/react-comments.js : react.js code
+/public/scripts/riot-comments.tag : riot.js code
