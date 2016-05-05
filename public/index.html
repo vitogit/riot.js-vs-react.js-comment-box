@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>React vs Riot comment box</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    
+    <!-- REACT FILES -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.16/browser.js"></script>
+    <script type="text/babel" src="../scripts/react-comments.js"></script>
+    
+    <!-- RIOT FILES -->
+    <script type="riot/tag" src="../scripts/riot-comments.tag"></script>
+    <script src="https://cdn.jsdelivr.net/riot/2.3/riot+compiler.min.js"></script>
+    <script src="../scripts/riot_comment_store.js"></script>
+    <script>riot.mount('*')</script>
+  </head>
+  <body>
+    
+    <div>
+      <div class="col_left">
+        <riot-comments/>
+      </div>
+      <div class="col_right">
+        <div id="react_content"></div>
+      </div>
+    </div>
+
+  </body>
+</html>

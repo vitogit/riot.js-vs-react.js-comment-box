@@ -1,0 +1,23 @@
+{
+  "name": "riot-react-comments",
+  "version": "0.0.0",
+  "description": "Riot vs React for simple commentbox",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "react",
+    "riot",
+    "compare"
+],
+  "author": "vitogit"
+}

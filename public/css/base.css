@@ -1,0 +1,18 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 30px;
+}
+
+.comment {
+  border-bottom: 1px solid;
+}
+
+.col_left, .col_right  {
+  float: left;
+  width: 40%;
+  position: relative;
+  overflow: hidden;
+} 
+.col_right  {
+  left: 10%;
+} 
