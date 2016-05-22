@@ -22,3 +22,6 @@ You can compare both comment box versions:
 /public/scripts/react-comments.js : react.js code
 /public/scripts/riot-comments.tag : riot.js code
 ```
+
+### Online version
+http://vitomd.com/code/react_vs_riot_comment_box/
