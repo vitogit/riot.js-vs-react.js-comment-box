@@ -24,4 +24,4 @@ You can compare both comment box versions:
 ```
 
 ### Online version
-http://plnkr.co/edit/FfM9zYCcI7NWJogaiC50?p=preview
+http://vitogit.github.io/riot.js-vs-react.js-comment-box/
